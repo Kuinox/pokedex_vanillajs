@@ -1,0 +1,27 @@
+{
+  "name": "vanillajs-pokedex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kuinox/pokedex.js": "^0.1.13"
+  },
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --target=es2015 --outfile=public/index.js",
+    "serve": "serve public --listen 3000"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.17"
+  }
+}
