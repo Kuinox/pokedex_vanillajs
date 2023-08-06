@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@kuinox/pokedex.js": "^0.1.13"
+    "@kuinox/pokedex.js": "^0.1.14"
   },
   "scripts": {
     "build": "esbuild src/index.js --bundle --minify --target=es2015 --outfile=public/index.js",
