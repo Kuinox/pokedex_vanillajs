@@ -265,6 +265,7 @@ li {
   flex-direction: row;
   gap: 5px;
   height: 16.6px;
+  min-height: 16.6px;
 }
 .genList span {
   width: 20px;
@@ -352,4 +353,8 @@ li {
   background-color: #f48fb1;
   border: 2px solid #d81b60; /* Darker shade of pink for border */
   color: #000000; /* Black font color */
+}
+
+#droppedFrames {
+  margin-left: 50px;
 }
